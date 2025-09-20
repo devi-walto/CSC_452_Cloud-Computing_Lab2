@@ -37,4 +37,5 @@ jobs:
         with:
           name: webpage
           path: indez.html
+          if-no-files-found: error
 
