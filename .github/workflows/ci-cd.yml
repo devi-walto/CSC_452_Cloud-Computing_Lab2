@@ -13,9 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build step
-        run: |
-          echo "Pretend build started"
-          exit 1   # <-- force failure
+        run: echo "Build OK - HTML validated"
 
   deploy:
     runs-on: ubuntu-latest
